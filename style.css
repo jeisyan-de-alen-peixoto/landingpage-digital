@@ -32,3 +32,36 @@ nav ul li a:hover {
     color: #fff;
     border-radius: 4px;
 }
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 130px 0;
+}
+
+#inicio h1 {
+    margin-bottom: 30px;
+}
+
+#inicio h3 {
+    margin-bottom: 15px;
+}
+
+#inicio a {
+    background-color: #d40485;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+#inicio a:hover {
+    transform: scale(1.2);
+    
+}
